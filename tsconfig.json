@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "declaration": true,
+    "module": "es6",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es5", "dom"],
+    "strict": false,
+    "alwaysStrict": true,
+    // "paths": {},
+    "allowJs": false,
+    "types": ["node"],
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["./src/*"],
+  "exclude": ["node_modules"]
+}
